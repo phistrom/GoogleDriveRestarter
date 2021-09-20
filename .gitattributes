@@ -1,0 +1,4 @@
+# Force XML files to have CRLF
+*.bat text eol=crlf
+*.vbs text eol=crlf
+*.xml text eol=crlf

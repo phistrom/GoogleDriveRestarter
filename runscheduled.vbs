@@ -1,3 +1,4 @@
+' Adapted from https://serverfault.com/a/9039/
 ' Run googledriverestart.bat without a command prompt pop-up.
 ' Ideal for Scheduled Tasks.
 ' Assumes googledriverestart.bat is in the same folder.

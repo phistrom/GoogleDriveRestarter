@@ -16,10 +16,11 @@ REM echo Oh noes Google Drive ain't runnin'
 REM Run Google Drive...
 "%gdrivedir%"
 
-if %ERRORLEVEL% NEQ 0 (
+set /A elevel=%ERRORLEVEL%
+if %elevel% NEQ 0 (
     echo Try updating Google Drive. We expected to find %gdrivedir%
     timeout /t 10
-    exit /B 1
+    exit /B %elevel%
 )
 
 endlocal
